@@ -1,0 +1,544 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:"Poppins", sans-serif;
+}
+
+.principal{
+    background-image: url(../img/portada.jpg);
+    height: 64vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.principal_2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav{
+    padding-top: 20px;
+    padding-left: 30px;
+    margin: 0 35px;
+    max-height: 10px;
+    width: 370px;
+    padding-top: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    border-right: 1px solid white;
+    padding-right: 5px;
+    text-transform: uppercase;
+    font-size:x-small;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.segundo_contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-right: 35px;
+    max-width: 400px;
+
+}
+
+.segundo_contenedor img{
+    max-width: 22px;
+    max-height: 22px;
+}
+
+/* ------------------MAIN - HERO---------------- */
+
+.contenedor_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+    margin-top: -10px;
+
+}
+
+.home{
+    /* padding: 5px 3px; */
+    border: none;
+    margin: 10px 5px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.about{
+    /* padding: 5px 3px; */
+    border: none;
+    margin: 10px 5px;
+    background: transparent;
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.services{
+    /* padding: 5px 3px; */
+    border: none;
+    margin: 10px 5px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.portfolio{
+    padding: 5px 3px;
+    border: none;
+    margin: 10px 5px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.pricing{
+    padding: 5px 3px;
+    border: none;
+    margin: 10px 5px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.blog{
+    padding: 5px 3px;
+    border: none;
+    margin: 10px 5px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.contact{
+    padding: 5px 3px;
+    border: none;
+    margin: 10px 5px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.contenedor_menu img{
+    width: 15px;
+    height: 15px;
+
+}
+
+div h1{
+    color: white;
+    font-size:70px;
+    text-align: center;
+    margin: 0px 35px;
+    padding: 0x 35px;
+    text-transform: uppercase;
+}
+
+/* --------------- Segunda seccion de la pagina -----------------*/
+
+.seccion_2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_img{
+    margin: 30px 20px;
+    padding: 30px;
+}
+
+div img{
+    margin-right: 15px;
+    margin-top: 30px;
+    padding: 25px 5px;
+}
+
+.contenedor_texto{
+    padding: 15px 30px;
+    margin-top: 35px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content:end;
+}
+
+hr{
+    margin: 35px 35px;
+}
+
+p{
+    margin-bottom: 25px;
+    padding: 25px 5px;
+    font-size: 13px;
+    color: gray;
+    letter-spacing: 1.5px;
+    line-height: 10px   px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    border: solid 4px rgb(123, 126, 132);
+    border-radius: 4px;
+    padding: 4px;
+    background-color: rgb(123, 126, 132);
+    position:fixed;
+    top: 45%;
+    right: 0;
+    height: 200px;
+    padding-bottom: 3px;
+}
+
+.ic{
+    height: 20px;
+    margin-top: -25px;
+    margin-right: 1px;
+}
+
+/* -------- Tercera seccion de la pagina --------- */
+
+.seccion_3{
+    background-color: rgba(246, 248, 250, 1);
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    height: 350px;
+    padding: 20px 0;
+    margin-top: 25px;
+}
+
+.d1{
+    max-width: 415px;
+    max-height: 500px;
+
+}
+
+.d2{
+    max-width: 410px;
+    margin-top: 20px;
+}
+
+.seccion_3 h2{
+    text-align: center;
+}
+
+h2 span{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: lighter;
+    color: rgb(12, 12, 12);
+}
+
+h2 strong{
+    text-transform: uppercase;
+    font-size: 28px;
+    color: black;
+}
+
+.seccion_3 p{
+    text-align: center;
+    line-height: 22px;
+    padding-top: 8px;
+    color: gray;
+}
+
+/* --------------- Cuarta seccion ---------------- */
+.seccion_4{
+    margin-top: 30px;
+}
+
+.portada{
+    max-width: 199vh;
+}
+
+/* ----------------  Quinta seccion -------------- */
+.seccion_5{
+    background-image: url(../img/BG_UPSCALED.png);
+    height: 72vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.seccion_5 h2{
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 35px; 
+    height: 110px;
+}
+
+.seccion_5 h2 strong{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 30px;
+    text-transform: lowercase;
+}
+
+.seccion_5 h2 span{
+    text-transform: uppercase;
+    font-size: 44px;
+}
+
+.seccion_5 p{
+    text-align: center;
+    margin-top:-15px;
+}
+
+.seccion_5 div{
+    display: flex;
+    justify-content: center;
+}
+
+.hola{
+    display: flex;
+    justify-content:space-around;
+    align-content:stretch;
+    margin-top: -35px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+
+}
+
+.seccion_5 div button{
+    height: 50px;
+    width: 170px;
+    border: solid lightseagreen 10px ;
+    border-radius: 3px;
+    background-color: lightseagreen;
+    text-transform: uppercase;
+    color: white;
+}   
+
+.d5{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+/*  -------------- Pie de pagina --------------- */
+
+footer{
+    background-color:rgb(17, 17, 27);
+    /* background-color:rgb(24, 23, 23, 0.9); */
+}
+
+.seccion_pie_1{
+
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px;
+    padding: 20px 10px;
+    height: 450px;
+}
+
+.seccion_pie_2{
+    background-color:rgb(33, 33, 36);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.about_us{
+    width: 400px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: start;
+}
+
+.titulo_texto{
+    height: 280px;
+}
+
+.about_us h3{
+    text-transform: uppercase;
+    font-weight: 18px;
+    margin-top: 25px;
+    padding: 30px 20px;
+    color: white;
+}
+
+.about_us p{
+    font-size: 10px;
+
+}
+
+.about_us p strong{
+    color: white;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+
+.redes img{
+    width: 25px;
+}
+
+.recent_post{
+    width: 400px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recent_post h3{
+    text-transform: uppercase;
+    font-weight: 18px;
+    margin-top: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: white;
+}
+
+.hombre_sentado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pareja{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.interior_departamento{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.recent_post img{
+    max-width: 90px;
+    max-height: 90px;
+    background-position: left;
+    margin-top: 12px;
+}
+
+.recent_post p{
+    font-size: 10px;
+}
+
+.recent_post p strong{
+    color: white;
+}
+
+.instagram{
+    width: 200px;
+    height: 150px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.newsletter{
+    width: 400px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    margin-left: 20px;
+}
+
+.caja{
+    border: solid 8px rgb(39, 39, 39);
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 270px;
+    width: 260px;
+}
+
+.newsletter h3{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.newsletter p{
+
+}
+
+.newsletter button{
+    height: 50px;
+    width: 170px;
+    border: solid lightseagreen 10px ;
+    border-radius: 3px;
+    background-color: lightseagreen;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.caja_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.caja_1 p{
+    font-size: 10px;
+    padding-left: 35px;
+    margin-left: 30px;
+}
+
+.caja_2{
+    display: flex;
+    justify-items:right;
+    width: 600px;
+    margin-top: 10px;
+    margin-right: 0px;
+
+}
+
+.caja_2 a{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 35px;
+    padding-left: 18;
+}
